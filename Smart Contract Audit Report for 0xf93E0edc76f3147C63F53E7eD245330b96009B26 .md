@@ -32,7 +32,7 @@ The standard approve function sets or resets the allowance for a spender. If a u
 ## Additional Notes
 
 - **Gas Optimizations**: 
-- The contract was found to be using revert() statements. Since Solidity v0.8.4, custom errors have been introduced    which are a better alternative to the revert.This allows the developers to pass custom errors with dynamic data while reverting the transaction and also making the whole implementation a bit cheaper than using revert.
+- The contract was found to be using revert() statements. Since Solidity v0.8.4, custom errors have been introduced which are a better alternative to the revert.This allows the developers to pass custom errors with dynamic data while reverting the transaction and also making the whole implementation a bit cheaper than using revert.
 - The contract was found to be doing comparisons using inequalities inside the if statement.
 When inside the if statements, non-strict inequalities (>=, <=) are usually cheaper than the strict equalities (>, <).
 - The contract was found to be performing comparisons using inequalities inside the require statement. When inside the require statements, non-strict inequalities (>=, <=) are usually costlier than strict equalities (>, <).
