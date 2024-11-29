@@ -1,7 +1,7 @@
 # Smart Contract Audit Report for 0x421C69EAa54646294Db30026aeE80D01988a6876
 
 ## Overview
-- **Contract Address**: [0x](https://etherscan.io/address/0x421C69EAa54646294Db30026aeE80D01988a6876)
+- **Contract Address**: [0x421C69EAa54646294Db30026aeE80D01988a6876](https://etherscan.io/address/0x421C69EAa54646294Db30026aeE80D01988a6876)
 - **Audited Functions**: `transfer()`, `authorizeUpgrade()`.
 
 ## Issues Identified
